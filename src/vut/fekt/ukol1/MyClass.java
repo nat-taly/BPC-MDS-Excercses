@@ -1,4 +1,4 @@
-package VUT;
+package vut.fekt.ukol1;
 
 import java.util.ArrayList;
 

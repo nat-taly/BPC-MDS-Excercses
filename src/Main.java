@@ -1,4 +1,4 @@
-import java.util.HashMap;
+import vut.fekt.ukol2.MapClass;
 
 public class Main {
     public static void main(String[] args) throws NoSuchFieldException {

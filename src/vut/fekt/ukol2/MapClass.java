@@ -1,3 +1,5 @@
+package vut.fekt.ukol2;
+
 import java.util.HashMap;
 
 public class MapClass {
