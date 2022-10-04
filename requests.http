@@ -1,0 +1,8 @@
+GET http://localhost:8080/student
+###
+POST http://localhost:8080/student?name=Jiri&surname=Svozil&id=230912
+###
+GET http://localhost:8080/students
+###
+POST http://localhost:8080/students?id=233267
+###
