@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>WebApp</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" th:href="@{'/css/' + ${name} + '.css'}">
+</head>
+<body>
+  <div>
+    <h1 th:text="${name}"></h1>
+  </div>
+</body>
+<script>
+  /*
+  var x = document.querySelector("h1").innerText;
+  if( x === "Alice"){
+    document.querySelector("h1").style.color = "red";
+    document.querySelector("h1").style.fontStyle = "italic";
+  }
+  if( x === "Bob"){
+    document.querySelector("h1").style.color = "green";
+    document.querySelector("h1").style.textDecoration = "underline";
+  }
+   */
+</script>
+</html>

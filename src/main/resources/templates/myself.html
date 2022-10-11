@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<!--<html xmlns:th="http://www.thymeleaf.org">-->
+<html lang="cs" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>WebApp</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<style>
+    h1 {
+        font-weight: normal;
+    }
+    .name {
+        color: red;
+        display: inline;
+    }
+    .id {
+        color: darkcyan;
+        font-weight: bold;
+        display: inline;
+    }
+</style>
+<body>
+<div>
+    <h1>
+        <span class="name" th:text="${name} + ' '"></span>
+        <span class="id" th:text="${id}"></span>
+    </h1>
+</div>
+
+</body>
+</html>
